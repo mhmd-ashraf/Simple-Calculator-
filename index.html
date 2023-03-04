@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assigment 2</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <p style="font-size: 17px;">View Plainprint</p>
+            <div class="num1">
+                <label for="number1">Number 1:</label>
+                <input type="number" id="Number1" name="Number1" class="Number">
+            </div>
+            <div class="num2">
+                <label for="number2">Number 2:</label>
+                <input type="number" id="Number2" name="Number2" class="Number">
+            </div>
+            <div class="btns">
+                <button class="btn" id="addBtn" onclick=add()>ADD</button>
+                <button class="btn" id="subBtn" onclick=sub()>SUB</button>
+                <button class="btn" id="mulBtn" onclick=mul()>MUL</button>
+                <button class="btn" id="divBtn" onclick=div()>DIV</button>
+                <button class="btn" id="modBtn" onclick=mod()>MOD</button>
+            </div>
+            <div class="rslt">
+                <label for="result">Get Result</label>
+                <input type="text" id="result" name="result" class="result" readonly="readonly">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

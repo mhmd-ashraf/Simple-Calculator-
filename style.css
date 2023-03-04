@@ -1,0 +1,51 @@
+*{
+    margin: 2px;
+    font-size: 14px;
+}
+body{
+    background-color: #b3d6ff;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    background-color: #eee;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+.num1 , .num2 , .btns , .rslt , p{
+    margin: 2rem;
+}
+label , p{
+    font-size: 15px;
+    font-weight: 900;
+}
+button{
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff6a6a;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+button:hover{
+    background-color: white;
+    color: #ff6a6a;
+    border: 1px solid #ff6a6a;
+}
+input{
+    width: 20rem;
+    border: 0;
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: 7px;
+}
